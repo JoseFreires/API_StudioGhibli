@@ -1,0 +1,110 @@
+body{
+    background-color: rgb(36, 160, 231);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-items: center;
+    color: white
+}
+
+main{
+    margin: auto;
+    max-width: 800px;
+    min-width: 320px;
+}
+
+h1{
+    text-align: center;
+}
+
+li{
+  margin-bottom: 10px;  
+}
+
+img{
+    box-shadow: 0 0 1em rgb(0, 0, 0);
+}
+
+#desc_todas{
+    justify-content: center;
+    display: flex;
+    margin-bottom: 50px;
+    text-align: center;
+
+    text-shadow: 10px 10px 10px black;
+}
+
+#desc_1{
+    width: 300px;
+    color: rgb(255, 255, 255);
+}
+
+#desc_2{
+    width: 300px;
+    color: rgb(255, 255, 255);
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#desc_3{
+    width: 300px;
+    color: rgb(255, 255, 255);
+}
+
+
+#botao{
+    background-color: aliceblue;
+    width: 25px;
+    height: 15px;
+    border-radius: 1px;
+}
+
+#image_{
+    border: 10px;
+    text-align: center;
+}
+
+#area-list{
+    text-align: center;
+    margin-top: 50px;
+    background-color: rgb(132, 167, 212);
+    width: 850px;
+    border-radius: 5px ;
+    box-shadow: 0 0 1em rgb(0, 0, 0);
+}
+
+#list{
+    justify-content: space-around;
+    display: flex;
+    color: white;
+    width: 850px;
+}
+
+.informations{
+    text-align: center;
+    color:white;
+    list-style-type: none;
+    background-color: rgb(87, 172, 211);
+    border-radius: 5px;
+    margin-left: 50px;
+
+    box-shadow: 0 0 1em rgb(0, 0, 0);
+}
+
+#col-1{
+    width: 250px;
+}
+
+#col-2{
+    width: 250px;
+}
+
+#col-3{
+    width: 250px;
+}
+
+#col-4{
+    width: 300px;
+}
+
+#col-5{
+    width: 250px;
+}

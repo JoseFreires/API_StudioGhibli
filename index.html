@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width==device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Studio Ghibli</title>
+</head>
+<body>
+    <main>
+        <h1>Studio Ghibli API</h1>
+        <div id="desc_todas">
+            <div id="desc_1">
+                <h2>O que é o Studio Ghibli?</h2>
+                <p>Studio Ghibli Inc. é estúdio de cinema de animação japonês com sede em Koganei, Tóquio. O estúdio é mais conhecido por seus filmes de animação e também produziu vários curtas, comerciais de televisão e um filme de televisão..</p>
+
+            </div>
+            <div id="desc_2">
+                <h2>Como Usar a API:</h2>
+
+                <p>Abaixo tem uma lista de todos os 22 filmes criados pela Studio Ghibli, nela você escolhe qual dos filmes você deseja saber informações. </p>
+                <p>As informações aprensentadas serão: Nome do filme, Nome original em japonês, decrição do filme, a data de lançamento, tempo do filme e a pontuação que ele recebeu. </p>
+
+                <h2>O link da API ultilizada:</h2>
+                <p>https://ghibliapi.herokuapp.com/</p>
+
+            </div>
+            <div id="desc_3">
+                <h2>Referências:</h2>
+                <p>Vídeo: "Como CONSUMIR uma API com JAVASCRIPT PURO e colocar no HTML"</p>
+                <p>Link do Vídeo : (https://www.youtube.com/watch?v=YVf7iy2sIOw)</p>
+                
+                <p>Vídeo: "Como consumir de uma API usando a Fetch API! - Level Up #05"</p>
+                <p>Link do Vídeo : (https://youtu.be/mmCuNbChZ9I)</p>
+
+            
+            </div>
+        </div>
+
+        
+        <div id="image_">
+            <img src="studio.jpg" alt="image" id="imagem" height="250" width="400">
+        </div>
+
+        
+        <div id="area-list">
+            <p> Lista dos Filmes "Studio Ghibli". </p>
+            <div id="list">
+                <ul id="col-1">
+                    <li>Castle in the Sky</li>
+                    <li>Grave of the Fireflies</li>
+                    <li>My Neighbor Totoro</li>
+                    <li>Kiki's Delivery Service</li>
+                    <li>Only Yesterday</li>
+                </ul>
+
+                <ul id="col-2">
+                    <li>Porco Rosso</li>
+                    <li>Pom Poko</li>
+                    <li>Whisper of the Heart</li>
+                    <li>Princess Mononoke</li>
+                    <li>My Neighbors the Yamadas</li>
+                </ul>
+                <ul id="col-3">
+                    <li>Spirited Away</li>
+                    <li>The Cat Returns</li>
+                    <li>Howl's Moving Castle</li>
+                    <li>Tales from Earthsea</li>
+                    <li>Ponyo</li>
+                </ul>
+                
+                <ul id="col-4">
+                    <li>Arrietty</li>
+                    <li>From Up on Poppy Hill</li>
+                    <li>The Wind Rises</li>
+                    <li>The Tale of the Princess Kaguya</li>
+                    <li>When Marnie Was There</li>
+                </ul>
+
+                <ul id="col-5">
+                    <li>The Red Turtle</li>
+                    <li>Earwig and the Witch</li>
+                </ul>
+            </div>
+        </div>
+
+
+        <div class="informations">
+            <div class="in">
+                <p>Digite o nome do filme que deseja que 
+                    seja mostrado as informações:</p>
+                <input type="text" id="title_input" />
+                <button id="botao" name="Clique" value="botão" onclick="procura()"></button>
+            </div>
+
+            <div>
+                <p>Nome do filme: <output id="title"></output></p>
+
+                <p>Nome Original em Japonês: <output id="originalName"></output></p>
+
+                <p>Descrição: <output id="description"></output></p>
+
+                <p>Data de Lançamento: <output id="date"></output></p>
+
+                <p>Tempo de Filme (em minutos): <output id="time"></output></p>
+                
+                <p>Pontuação do Filme: <output id="score"></output></p>
+
+            </div>
+        </div>
+
+
+    </main>
+
+</body>
+<script src="script.js"></script>
+</html>
